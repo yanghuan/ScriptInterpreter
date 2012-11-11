@@ -1,0 +1,23 @@
+print("hello,word!")
+print("\n")
+
+print("1234")
+print("\n")
+
+
+print("hello," .. "word!")   
+print("\n")
+
+print(11 + 8 * 12)
+print("\n")
+
+print(false)
+print("\n")
+
+print("1234")
+print("\n")
+
+print("yang","huan",5667,2323,false)
+
+
+

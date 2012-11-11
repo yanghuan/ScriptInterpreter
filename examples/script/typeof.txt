@@ -1,0 +1,26 @@
+local i = typeof(print)
+print(i)
+print("\n")
+
+i = typeof("yanghuan")
+print(i)
+print("\n")
+
+i = typeof(1234)
+print(i)
+print("\n")
+
+i = typeof({ 1,2,3,4,6,7 })
+print(i)
+print("\n")
+
+i = typeof({ email : "sy.yanghuan@gmail.com" , name : "yanghuan" })
+print(i)
+print("\n")
+
+i = function() {
+	return 123
+}
+
+print(i)
+print("\n")

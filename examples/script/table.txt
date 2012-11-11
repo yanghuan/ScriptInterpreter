@@ -1,0 +1,21 @@
+i = { email : "sy.yanghuan@gmail.com" , name : "yanghuan" }
+
+
+print(i.email);
+print("\n")
+
+
+print(i.name) 
+print("\n")
+
+
+i.f = function() {
+	return 123456;
+}
+
+print(i.f());
+print("\n")
+
+
+i.array = { 1,2,3}
+print(i.array[0],i.array[1],i.array[2])

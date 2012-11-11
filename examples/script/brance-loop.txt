@@ -1,0 +1,46 @@
+local i = "hello"
+
+if(i == "hello") {
+	print("is hello")
+}
+else if(i == "word")
+{
+	print("is word")	
+}
+else 
+{
+	print("not hello,not word")
+}
+
+i =  23 > 10 ? "correct" : "wrong"
+
+print(i)
+
+
+for(i = 0; i < 10 ; i++)
+{
+	print(i .. " ")
+}
+
+
+i = 0;
+while( i < 100)
+{	
+	print(i .. " ")
+    if(i == 10)
+	{
+		break;
+	}
+	++i
+}
+
+
+i = 0
+do
+{
+	print(i .. " ");
+	++i
+}while( i < 10)
+
+
+ 

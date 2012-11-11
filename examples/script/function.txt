@@ -1,0 +1,52 @@
+function a()
+{
+	return 1234;
+}
+
+b = function(i,j,k)
+{
+	return i + j + k
+}
+
+c = function(...)
+{
+	print(args[0]);
+	print(args[1]);
+	print(args[2]);
+	print(args[3]);
+}
+
+
+/*  closure example  */
+d = function(i)
+{
+	local k = 10
+	return function(j) {
+		return i + j + k
+	}
+}
+
+
+e = function(i)
+{
+	return i + b(i,i,i);
+}
+
+print(a());
+print("\n")
+
+print(b(1,2,3))
+print("\n")
+
+print(b(1,2,3,6,7,8))
+print("\n")
+
+c(2345,"yanghuan",8900)
+
+f = d(34);
+print(f(21))
+
+print(e(10))
+print("\n")
+
+
