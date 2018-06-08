@@ -13,4 +13,8 @@ Implementation of the MyScript scripting language engine.
 ```script
 local i = "hello wrod"
 print(i)
+
+for(i = 0; i < 10; i++) {
+  print(i)
+}
 ```
